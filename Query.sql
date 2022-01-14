@@ -16,6 +16,7 @@ SELECT *
 FROM `students`
 WHERE  `date_of_birth` < DATE_SUB(CURRENT_DATE(), INTERVAL 30 YEAR);
 
+
 -- punto 4 
 
 SELECT *
@@ -29,6 +30,7 @@ SELECT *
 FROM `exams` 
 WHERE `date` = '2020/06/20'
 AND `hour` > TIME('14:00:00');
+--AND HOUR(`hour`) >= 14;
 
 --punto 6
 
