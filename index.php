@@ -44,10 +44,7 @@ require_once __DIR__ . '/partials/scripts/get-departments.php';
                             <a href="./show.php?id=<?php echo $department['id'] ?>">
                               View</a>
                         </td>
-                        <td>
-                            <a href="./show.php?id=<?php echo $department['id'] ?>">
-                              View</a>
-                        </td>
+                       
                     </tr>
                     <?php endforeach;
                     endif; ?>
